@@ -14,28 +14,28 @@ export default function MamiferosMain() {
             <h1>Mamíferos</h1>
             <div class="card">
                 <p>Osos</p>
-                <img src="./imagenes/oso.jpg" alt=""/>
+                <img src="./img/oso.jpg" alt=""/>
             </div>
             <div class="card">
                 <p>Tigre</p>
-                <img src="./imagenes/tigre.jpg"alt=""/>
+                <img src="./img/tigre.jpg"alt=""/>
             </div>
             <div class="card">
                 <p>Lobo</p>
-                <img src="./imagenes/lobo.jpg"alt=""/>
+                <img src="./img/lobo.jpg"alt=""/>
             </div>
             <br/>
             <div class="card">
                 <p>Leon</p>
-                <img src="./imagenes/leon.jpg"alt=""/>
+                <img src="./img/leon.jpg"alt=""/>
             </div>
             <div class="card">
                 <p>Koala</p>
-                <img src="./imagenes/koala.jpg"alt=""/>
+                <img src="./img/koala.jpg"alt=""/>
             </div>
             <div class="card">
                 <p>Gato</p>
-                <img src="./imagenes/Gato.jpg"alt=""/>
+                <img src="./img/Gato.jpg"alt=""/>
             </div>
         </div>
         <br/>
