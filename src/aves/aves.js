@@ -1,7 +1,7 @@
 import './aves.css'
 
 
-function App() {
+function AvesMain() {
    
    return (
 <>
@@ -19,28 +19,28 @@ function App() {
             <h1>Aves</h1>
             <div class="card">
                 <p>Canario</p>
-                <img src="./imagenes/canario.jpg"/>
+                <img src="./imagenes/canario.jpg"alt=""/>
             </div>
             <div class="card">
                 <p>Pájaro Carpintero</p>
-                <img src="./imagenes/carpintero.jpg"/>
+                <img src="./imagenes/carpintero.jpg"alt=""/>
             </div>
             <div class="card">
                 <p>Colibri</p>
-                <img src="./imagenes/colibri.jpeg"/>
+                <img src="./imagenes/colibri.jpeg"alt=""/>
             </div>
             <br/>
             <div class="card">
                 <p>Gaviota</p>
-                <img src="./imagenes/gaviota.jpg"/>
+                <img src="./imagenes/gaviota.jpg"alt=""/>
             </div>
             <div class="card">
                 <p>Paloma</p>
-                <img src="./imagenes/paloma.jpg"/>
+                <img src="./imagenes/paloma.jpg"alt=""/>
             </div>
             <div class="card">
                 <p>Tucán</p>
-                <img src="./imagenes/tucan.jpg"/>
+                <img src="./imagenes/tucan.jpg"alt=""/>
             </div>
         </div>
         <br/>
