@@ -10,7 +10,7 @@ export default function AnfibiosMain(){
         <h1>Anfibios</h1>
         <div>
             <p>Rana</p>
-            <img src="./imagenes/rana.jpg"alt=""/>
+            <img src="./public/img/rana.jpg"alt=""/>
         </div>
         <div>
             <p>Sapo</p>
