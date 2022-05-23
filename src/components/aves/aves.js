@@ -43,7 +43,7 @@ export default function AvesMain() {
                       return <Animal animal= {avesArray}/>
                     })}
                 <footer>
-                    <a class="volver" href="index.html">Volver</a>
+                <Link to ="/" >Volver</Link>|{" "}
                 </footer>
                 </>
             );

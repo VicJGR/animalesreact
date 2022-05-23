@@ -17,19 +17,19 @@ export default function MamiferosMain() {
       },
       {
         nombre: 'Leon',
-        src: "./img/imgleon.jpg"
+        src: "./img/img/leon.jpg"
       },
       {
         nombre: 'Oso',
-        src: "./img/img/leon.jpg"
+        src: "./img/img/oso.jpg"
       },
       {
         nombre: 'Koala',
-        src: "./img/img/leon.jpg"
+        src: "./img/img/koala.jpg"
       },
       {
         nombre: 'Gato',
-        src: "./img/img/leon.jpg"
+        src: "./img/img/Gato.jpg"
       }  ]
 
 return (
@@ -51,7 +51,7 @@ return (
               return <Animal animal= {mamiferosArray}/>
             })}
         <footer>
-            <a class="volver" href="index.html">Volver</a>
+        <Link to ="/" >Volver</Link>|{" "}
         </footer>
         </>
     );
