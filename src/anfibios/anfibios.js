@@ -1,12 +1,7 @@
 function AnfibiosMain(){
     return(
 <>
-    <div>
-        <a href="./Aves.html">Aves</a>
-        <a href="./Mamiferos.html">Mamiferos</a>
-        <a href="./reptiles.html">Reptiles</a>
-        <a href="./peces.html">Peces</a>
-    </div>
+
    <br/>
     <div>
         <h1>Anfibios</h1>
@@ -36,10 +31,6 @@ function AnfibiosMain(){
             <img src="./imagenes/tritón.jpg"alt=""/>
         </div>
     </div>
-    <div>
-    <br/>
-        <a class="bottom"href="./index.html">Volver</a>
-        <br/>
-    </div>
+    
 </>
     )};
