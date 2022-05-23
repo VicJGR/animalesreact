@@ -1,5 +1,5 @@
 import './mamiferos.css'
-import Animal from './Animal'
+import Animal from './../../Animal'
 
 
 
