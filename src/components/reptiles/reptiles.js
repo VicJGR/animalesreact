@@ -1,4 +1,5 @@
 import "./reptiles.css"
+import {Link} from "react-router-dom";
 
 const reptilesArray = [{
         nombre: "Lacerta agilis",
@@ -23,6 +24,13 @@ const reptilesArray = [{
 export default function ReptilesMain(){
     return(
 <>
+<nav>
+        <Link to ="/mamiferos" >Mamiferos</Link>|{" "}
+        <Link to ="/aves">Aves</Link>|{" "}
+        <Link to ="/anfibios">Anfibios</Link>|{" "}
+        <Link to ="/peces">Peces</Link>|{" "}
+        <Link to ="/reptiles">Reptiles</Link>|{" "}
+        </nav>
   <div class="headerLinks">
   
 </div>
