@@ -1,25 +1,24 @@
 import './aves.css'
-import Animal from './Animal'
-// import React from 'react';
+import Animal from './Animal' 
 
 const avesArray = [
     {nombre: 'Canario',
-    src: '.img/img/canario.jpg'},
+    src: './img/img/canario.jpg'},
 
     {nombre: 'Pajaro Carpintero',
-    src: '.img/img/carpintero.jpg'},
+    src: './img/img/carpintero.jpg'},
 
     {nombre: 'Colibri',
-    src: '.img/img/colibri.jpeg'},
+    src: './img/img/colibri.jpeg'},
 
     {nombre: 'Gaviota',
-    src: '.img/img/gaviota.jpg'},
+    src: './img/img/gaviota.jpg'},
 
     {nombre: 'Paloma',
-    src: '.img/img/paloma.jpg'},
+    src: './img/img/paloma.jpg'},
 
     {nombre: 'Tucán',
-    src: '.img/img/tucan.jpg'}
+    src: './img/img/tucan.jpg'}
 ]
 
 export default function AvesMain() {
