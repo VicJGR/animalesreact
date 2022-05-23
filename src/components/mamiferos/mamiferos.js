@@ -9,27 +9,27 @@ export default function MamiferosMain() {
     const mamiferosArray = [
        {
          nombre: 'Tigre',
-         src: "imagenes/tigre.jpg"
+         src: "./public/img/img/tigre.jpg"
        },
        {
         nombre: 'Lobo',
-        src: "imagenes/lobo.jpg"
+        src: "./public/img/img/lobo.jpg"
       },
       {
         nombre: 'Leon',
-        src: "imagenes/leon.jpg"
+        src: "./public/img/imgleon.jpg"
       },
       {
         nombre: 'Oso',
-        src: "imagenes/leon.jpg"
+        src: "./public/img/img/leon.jpg"
       },
       {
         nombre: 'Koala',
-        src: "imagenes/leon.jpg"
+        src: "./public/img/img/leon.jpg"
       },
       {
         nombre: 'Gato',
-        src: "imagenes/leon.jpg"
+        src: "./public/img/img/leon.jpg"
       }  ]
 
 return (

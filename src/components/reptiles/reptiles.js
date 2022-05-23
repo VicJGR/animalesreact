@@ -2,22 +2,22 @@ import "./reptiles.css"
 
 const reptilesArray = [{
         nombre: "Lacerta agilis",
-        src: "./imagenes/zauneidechse1.jpg"
+        src: "./public/img/img/zauneidechse1.jpg"
     },{
         nombre: "Lycaenops",
-        src: "./imagenes/lycaenops.jpg"
+        src: "./public/img/img/lycaenops.jpg"
     },{
         nombre: "Bradysaurus",
-        src: "./imagenes/bradysaurus.jpg"
+        src: "./public/img/img/bradysaurus.jpg"
     },{
         nombre: "Hylonomus",
-        src: "./imagenes/hylonomus.jpg"
+        src: "./public/img/img/hylonomus.jpg"
     },{
         nombre: "Gavialis gangeticus",
-        src: "./imagenes/indianGharial.jpg"
+        src: "./public/img/img/indianGharial.jpg"
     },{
         nombre: "Iguana iguana",
-        src: "./imagenes/iguanaIguana.jpg"
+        src: "./public/img/img/iguanaIguana.jpg"
     }]
 
 export default function ReptilesMain(){
