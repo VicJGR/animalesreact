@@ -1,4 +1,4 @@
-function App(){
+function AnfibiosMain(){
     return(
 <>
     <div>

@@ -1,4 +1,4 @@
-function App(){
+function ReptilesMain(){
     return(
 <>
   <div class="headerLinks">
