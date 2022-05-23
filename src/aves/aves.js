@@ -1,4 +1,5 @@
 import './aves.css'
+// import React from 'react';
 
 
 function AvesMain() {
@@ -52,3 +53,19 @@ function AvesMain() {
    );
    }
 
+
+// FUNCION ( O INTENTO DE FUNCION ) PARA PASAR LOS COMPONENTES HIJOS DE UN ARRAY AL COMPONENTE PADRE
+//    const aves = (props) => {
+   
+//        return (
+   
+//                <div class="card">
+//                    <p>{props.animal.nombre}</p>
+//                    <img src={props.animal.src}/>
+//                </div>
+   
+       
+//        )
+//    }
+   
+//    export default Animal
