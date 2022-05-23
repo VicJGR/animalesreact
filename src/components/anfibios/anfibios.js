@@ -5,7 +5,7 @@ function AnfibiosMain(){
     return(
 <>
 
-   <br/>
+<br/>
     <div>
         <h1>Anfibios</h1>
         <div>
