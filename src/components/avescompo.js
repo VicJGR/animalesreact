@@ -8,7 +8,7 @@ const aves = (props) => {
                 <p>{props.animal.nombre}</p>
                 <img src={props.animal.src}/>
             </div>
-           
+
     
     )
 }
