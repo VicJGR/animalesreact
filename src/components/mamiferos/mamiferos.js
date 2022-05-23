@@ -1,4 +1,5 @@
 import './mamiferos.css'
+import Animal from 'ComponenteUnico'
 
 
 
@@ -33,14 +34,12 @@ export default function MamiferosMain() {
 
 return (
 <>
-
-    
         <br/>
         <div class="divGrande"/>
             <h1>Mamíferos</h1>
             {
             mamiferosArray.map((mamiferosArray)=>{
-              return <Mamiferos mamiferos= {mamiferosArray}/>
+              return <Animal animal= {mamiferosArray}/>
             })}
         <footer>
             <a class="volver" href="index.html">Volver</a>

@@ -1,9 +1,29 @@
 import './aves.css'
 // import React from 'react';
 
+const avesArray = [
+    {nombre: 'Canario',
+    src: '.img/img/canario.jpg'},
+
+    {nombre: 'Pajaro Carpintero',
+    src: '.img/img/carpintero.jpg'},
+
+    {nombre: 'Colibri',
+    src: '.img/img/colibri.jpeg'},
+
+    {nombre: 'Gaviota',
+    src: '.img/img/gaviota.jpg'},
+
+    {nombre: 'Paloma',
+    src: '.img/img/paloma.jpg'},
+
+    {nombre: 'Tucán',
+    src: '.img/img/tucan.jpg'}
+]
 
 export default function AvesMain() {
    
+<<<<<<< HEAD
    return (
 <>
     
@@ -36,12 +56,24 @@ export default function AvesMain() {
                 <img src="./public/img/img/tucan.jpg"alt=""/>
             </div>
         </div>
+=======
+    return (
+        <>
+>>>>>>> 626ce19e48f5deed93ee16569887fd7cf0fd3763
         
-        <footer>
-            <a class="volver" href="index.html">Volver</a>
-        </footer>
-    </>
-   );
+            
+                <br/>
+                <div class="divGrande"/>
+                    <h1>Aves</h1>
+                    {
+                   avesArray.map((avesArray)=>{
+                      return <Aves aves= {avesArray}/>
+                    })}
+                <footer>
+                    <a class="volver" href="index.html">Volver</a>
+                </footer>
+                </>
+            );
    }
 
 
@@ -60,3 +92,6 @@ export default function AvesMain() {
 //    }
    
 //    export default Animal
+
+
+
