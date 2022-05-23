@@ -1,0 +1,24 @@
+div{
+    display: inline-block;
+    text-align: center;
+}
+a:hover{
+    background-color: gold;
+
+}
+a:visited{
+    background-color: crimson;
+}
+img{
+    width:300;
+    height:300;
+    border: 3px solid black;
+}
+body{
+    text-align: center;
+    align-items: center;
+}
+
+.bottom{
+    border: 1px solid black;
+}
