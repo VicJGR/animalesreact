@@ -1,6 +1,25 @@
 import './aves.css'
 // import React from 'react';
 
+const avesArray = [
+    {nombre: 'Canario',
+    src: '.img/img/canario.jpg'},
+
+    {nombre: 'Pajaro Carpintero',
+    src: '.img/img/carpintero.jpg'},
+
+    {nombre: 'Colibri',
+    src: '.img/img/colibri.jpeg'},
+
+    {nombre: 'Gaviota',
+    src: '.img/img/gaviota.jpg'},
+
+    {nombre: 'Paloma',
+    src: '.img/img/paloma.jpg'},
+
+    {nombre: 'Tucán',
+    src: '.img/img/tucan.jpg'}
+]
 
 export default function AvesMain() {
    
@@ -60,3 +79,6 @@ export default function AvesMain() {
 //    }
    
 //    export default Animal
+
+
+
