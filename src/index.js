@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Anfibios from ".components/anfibios/Anfibios";
 import Aves from ".components/aves/Aves";
-import Mamiferos from ".componentes/mamiferos/Mamiferos";
+import Mamiferos from ".components/mamiferos/Mamiferos";
 import Peces from ".components/peces/Peces";
 import Reptiles from ".components/reptiles/Reptiles";
 
