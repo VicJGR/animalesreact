@@ -1,3 +1,5 @@
+import "./peces.css"
+
 function PecesMain(){
     return(
 <>

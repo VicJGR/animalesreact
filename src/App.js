@@ -6,7 +6,6 @@ function App() {
 
     return (
     <div >
-        
         <nav>
         <Link to ="/mamiferos" >Mamiferos</Link>|{" "}
         <Link to ="/aves">Aves</Link>|{" "}

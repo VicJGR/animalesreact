@@ -1,3 +1,5 @@
+import "./reptiles.css"
+
 function ReptilesMain(){
     return(
 <>

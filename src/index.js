@@ -8,7 +8,7 @@ import Anfibios from ".components/anfibios/Anfibios";
 import Aves from ".components/aves/Aves";
 import Mamiferos from ".componentes/mamiferos/Mamiferos";
 import Peces from ".components/peces/Peces";
-import Reptiles from ".componentes/reptiles/Reptiles";
+import Reptiles from ".components/reptiles/Reptiles";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
