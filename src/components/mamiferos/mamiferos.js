@@ -41,7 +41,6 @@ export default function MamiferosMain() {
         <br/>
         <br/>
         <footer>
-            
             <a class="volver" href="index.html">Volver</a>
         </footer>
         </>
