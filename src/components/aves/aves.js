@@ -1,5 +1,6 @@
 import './aves.css'
 import Animal from './../../Animal' 
+import {Link} from "react-router-dom";
 
 const avesArray = [
     {nombre: 'Canario',
@@ -25,7 +26,14 @@ export default function AvesMain() {
    
     return (
         <>
-        
+           <nav>
+        <Link to ="/mamiferos" >Mamiferos</Link>|{" "}
+        <Link to ="/aves">Aves</Link>|{" "}
+        <Link to ="/anfibios">Anfibios</Link>|{" "}
+        <Link to ="/peces">Peces</Link>|{" "}
+        <Link to ="/reptiles">Reptiles</Link>|{" "}
+        </nav>
+
             
                 <br/>
                 <div class="divGrande"/>
