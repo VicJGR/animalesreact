@@ -1,5 +1,5 @@
 import './aves.css'
-import Animal from './Animal' 
+import Animal from './../../Animal' 
 
 const avesArray = [
     {nombre: 'Canario',
