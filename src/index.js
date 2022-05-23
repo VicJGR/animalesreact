@@ -4,12 +4,23 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-
+import AnfibiosMain from ".components/AnfibiosMain";
+import AvesMain from ".components/AvesMain";
+import MamiferosMain from ".componentes/MamiferosMain";
+import PecesMain from ".components/PecesMain";
+import ReptilesMain from ".componentes/ReptilesMain";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    <App />
+<Routes>
+      <Route path="/" element={<App />} />
+      <Route path="anfibiosmain" element={<AnfibiosMain />} />
+      <Route path="avesmain" element={<AvesMain />} />
+      <Route path="mamiferosmain" element={<MamiferosMain />} />
+      <Route path="pecesmain" element={<PecesMain />} />
+      <Route path="reptilesmain" element={<ReptilesMain />} />
+    </Routes>
   </BrowserRouter>
 );
 
