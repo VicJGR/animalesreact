@@ -1,6 +1,6 @@
 import "./reptiles.css"
 
-function ReptilesMain(){
+export default function ReptilesMain(){
     return(
 <>
   <div class="headerLinks">
