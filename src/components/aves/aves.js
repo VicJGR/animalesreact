@@ -1,4 +1,5 @@
 import './aves.css'
+import Animal from './Animal'
 // import React from 'react';
 
 const avesArray = [
@@ -32,7 +33,7 @@ export default function AvesMain() {
                     <h1>Aves</h1>
                     {
                    avesArray.map((avesArray)=>{
-                      return <Aves aves= {avesArray}/>
+                      return <Animal animal= {avesArray}/>
                     })}
                 <footer>
                     <a class="volver" href="index.html">Volver</a>
