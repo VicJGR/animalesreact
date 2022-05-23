@@ -44,7 +44,9 @@ export default function PecesMain(){
 </div>
 <br/>
 <br/>
-
+<footer>
+<Link to ="/" >Volver</Link>|{" "}
+</footer>
 </>
     )};
     
