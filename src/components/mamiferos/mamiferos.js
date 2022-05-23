@@ -1,5 +1,5 @@
 import './mamiferos.css'
-import Animal from 'ComponenteUnico'
+import Animal from './Animal'
 
 
 
