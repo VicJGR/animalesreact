@@ -4,11 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Anfibios from ".components/anfibios/Anfibios";
-import Aves from ".components/aves/Aves";
-import Mamiferos from ".componentes/mamiferos/Mamiferos";
-import Peces from ".components/peces/Peces";
-import Reptiles from ".components/reptiles/Reptiles";
+import Anfibios from "./components/anfibios/anfibios";
+import Aves from "./components/aves/aves";
+import Mamiferos from "./components/mamiferos/mamiferos";
+import Peces from "./components/peces/peces";
+import Reptiles from "./components/reptiles/reptiles";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
