@@ -23,7 +23,7 @@ const avesArray = [
 
 export default function AvesMain() {
    
-<<<<<<< HEAD
+
    return (
 <>
     
@@ -55,11 +55,13 @@ export default function AvesMain() {
                 <p>Tucán</p>
                 <img src="./public/img/img/tucan.jpg"alt=""/>
             </div>
-        </div>
-=======
+        </div> 
+
+</>
+   )
+    
     return (
         <>
->>>>>>> 626ce19e48f5deed93ee16569887fd7cf0fd3763
         
             
                 <br/>
@@ -77,9 +79,9 @@ export default function AvesMain() {
    }
 
 
-// FUNCION ( O INTENTO DE FUNCION ) PARA PASAR LOS COMPONENTES HIJOS DE UN ARRAY AL COMPONENTE PADRE
-//    const aves = (props) => {
-   
+{/* // FUNCION ( O INTENTO DE FUNCION ) PARA PASAR LOS COMPONENTES HIJOS DE UN ARRAY AL COMPONENTE PADRE
+//    const aves = (props) => { */}
+{/*    
 //        return (
    
 //                <div class="card">
@@ -91,7 +93,7 @@ export default function AvesMain() {
 //        )
 //    }
    
-//    export default Animal
+//    export default Animal */}
 
 
 
