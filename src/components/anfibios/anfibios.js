@@ -1,4 +1,5 @@
 import "./anfibios.css"
+import {Link} from "react-router-dom";
 
 
 export default function AnfibiosMain(){
@@ -34,6 +35,9 @@ export default function AnfibiosMain(){
             <img src="./public/img/img/tritón.jpg"alt=""/>
         </div>
     </div>
+    <footer>
+                <Link to ="/" >Volver</Link>|{" "}
+    </footer>
     
 </>
     )};

@@ -1,4 +1,5 @@
 import "./peces.css"
+import {Link} from "react-router-dom";
 
 export default function PecesMain(){
     return(
@@ -36,7 +37,9 @@ export default function PecesMain(){
 </div>
 <br/>
 <br/>
-
+<footer>
+<Link to ="/" >Volver</Link>|{" "}
+</footer>
 </>
     )};
     

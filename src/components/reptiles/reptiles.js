@@ -1,5 +1,6 @@
 import "./reptiles.css"
 import Animal from "./../../Animal";
+import {Link} from "react-router-dom";
 
 const reptilesArray = [{
         nombre: "Lacerta agilis",
@@ -32,7 +33,7 @@ export default function ReptilesMain(){
               return <Animal animal= {reptilesArray}/>
             })}
         <footer>
-            <a class="volver" href="index.html">Volver</a>
+        <Link to ="/" >Volver</Link>|{" "}
         </footer>
 </>
     )};
