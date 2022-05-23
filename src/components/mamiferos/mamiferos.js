@@ -7,14 +7,7 @@ export default function MamiferosMain() {
    
     return (
 <>
-<div class="menu">
-            <p>Menu</p>
-            <a class="colorLink" href="./aves.html">Aves</a>
-            <a class="colorLink" href="./reptiles.html">Reptiles</a>
-            <a class="colorLink" href="./mamiferos.html">Mamíferos</a>
-            <a class="colorLink" href="./anfibios.html">Anfibios</a>
-            <a class="colorLink" href="./peces.html">Peces</a>
-        </div>
+
     
         <br/>
         <div class="divGrande">

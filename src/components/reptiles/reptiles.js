@@ -4,13 +4,7 @@ export default function ReptilesMain(){
     return(
 <>
   <div class="headerLinks">
-  <div>
-      <a href="./aves.html">Aves</a> 
-      <a href="./reptiles.html">Reptiles</a>
-      <a href="./mamiferos.html">Mamíferos</a> 
-      <a href="./anfibios.html">Anfibios</a> 
-      <a href="./peces.html">Peces</a> 
-  </div>
+  
 </div>
 <div class="header">
   <h1>Reptiles</h1>

@@ -4,18 +4,13 @@ import "./anfibios.css"
 export default function AnfibiosMain(){
     return(
 <>
-    <div>
-        <a href="./Aves.html">Aves</a>
-        <a href="./Mamiferos.html">Mamiferos</a>
-        <a href="./reptiles.html">Reptiles</a>
-        <a href="./peces.html">Peces</a>
-    </div>
-   <br/>
+
+<br/>
     <div>
         <h1>Anfibios</h1>
         <div>
             <p>Rana</p>
-            <img src="./imagenes/rana.jpg"alt=""/>
+            <img src="./public/img/rana.jpg"alt=""/>
         </div>
         <div>
             <p>Sapo</p>
@@ -39,10 +34,6 @@ export default function AnfibiosMain(){
             <img src="./imagenes/tritón.jpg"alt=""/>
         </div>
     </div>
-    <div>
-    <br/>
-        <a class="bottom"href="./index.html">Volver</a>
-        <br/>
-    </div>
+    
 </>
     )};
