@@ -1,35 +1,22 @@
 import './App.css'
-
+import {Link} from "react-router-dom";
 
 
 function App() {
-   
-  return (
 
-<><div >
-            <h1>Estas son las familias de animales</h1>
-        </div>
-        <br/>
-        <div class="animales">
-            <a href="./aves.html">Aves</a>
-        </div>
-
-        <div class="animales">
-            <a href="./reptiles.html">Reptiles</a>
-        </div>
-
-        <div class="animales"/>
-            <a href="./mamiferos.html">Mamíferos</a>
-        <div class="animales"/>
-
-        <div class="animales">
-            <a href="./anfibios.html">Anfibios</a>
-        </div>
-
-        <div class="animales">
-            <a href="./peces.html">Peces</a>
-        </div>
-        </>
-  );}
-
-  export default App;
+    return (
+    <div >
+        
+        <nav>
+        <Link to ="/mamiferos" >Mamiferos</Link>|{" "}
+        <Link to ="/aves">Aves</Link>|{" "}
+        <Link to ="/anfibios">Anfibios</Link>|{" "}
+        <Link to ="/peces">Peces</Link>|{" "}
+        <Link to ="/reptiles">Reptiles</Link>
+        </nav>
+</div>
+    );
+}
+  
+export default App;
+  
