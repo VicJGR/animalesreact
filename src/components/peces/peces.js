@@ -1,6 +1,6 @@
 import "./peces.css"
 
-function PecesMain(){
+export default function PecesMain(){
     return(
 <>
     <div class="align"/>

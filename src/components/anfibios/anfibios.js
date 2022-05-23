@@ -1,7 +1,7 @@
 import "./anfibios.css"
 
 
-function AnfibiosMain(){
+export default function AnfibiosMain(){
     return(
 <>
     <div>

@@ -3,7 +3,7 @@ import './mamiferos.css'
 
 
 
-function MamiferosMain() {
+export default function MamiferosMain() {
    
     return (
 <>
