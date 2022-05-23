@@ -1,14 +1,8 @@
-const aves = (props) => {
-   
-           return (
+export default function Animal(props){
+    return (
+       <div class="card">
+            <p>{props.animal.nombre}</p>
+            <img src={props.animal.src}alt=""/>
+        </div>
+    )}
        
-                   <div class="card">
-                       <p>{props.animal.nombre}</p>
-                       <img src={props.animal.src}/>
-                   </div>
-       
-           
-           )
-       }
-       
-       export default Animal
