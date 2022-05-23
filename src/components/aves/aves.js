@@ -2,7 +2,7 @@ import './aves.css'
 // import React from 'react';
 
 
-function AvesMain() {
+export default function AvesMain() {
    
    return (
 <>

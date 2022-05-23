@@ -11,7 +11,7 @@ function App() {
         <Link to ="/aves">Aves</Link>|{" "}
         <Link to ="/anfibios">Anfibios</Link>|{" "}
         <Link to ="/peces">Peces</Link>|{" "}
-        <Link to ="/reptiles">Reptiles</Link>
+        <Link to ="/reptiles">Reptiles</Link>|{" "}
         </nav>
 </div>
     );
