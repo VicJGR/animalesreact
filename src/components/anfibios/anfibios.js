@@ -14,24 +14,24 @@ export default function AnfibiosMain(){
         </div>
         <div>
             <p>Sapo</p>
-            <img src="./imagenes/bufo_bufo_03.jpg"alt=""/>
+            <img src="./public/img/bufo_bufo_03.jpg"alt=""/>
         </div>
         <div>
             <p>Axolote</p>
-            <img src="./imagenes/axolote_02.jpg"alt=""/>
+            <img src="./public/img/axolote_02.jpg"alt=""/>
         </div>
         <br/>
         <div>
             <p>Cecilia</p>
-            <img src="./imagenes/cecilia.jpg"alt=""/>
+            <img src="./public/img/cecilia.jpg"alt=""/>
         </div>
         <div>
             <p>Salamandra</p>
-            <img src="./imagenes/salmandra.jpg"alt=""/>
+            <img src="./public/img/salamandra.jpg"alt=""/>
         </div>
         <div>
             <p>Tritón</p>
-            <img src="./imagenes/tritón.jpg"alt=""/>
+            <img src="./public/img/tritón.jpg"alt=""/>
         </div>
     </div>
     
